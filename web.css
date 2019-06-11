@@ -1,0 +1,264 @@
+/*
+* @Author: dell
+* @Date:   2019-06-03 19:22:58
+* @Last Modified by:   dell
+* @Last Modified time: 2019-06-04 17:20:32
+*/
+*{padding: 0;margin: 0;}
+ul,li,ol{
+    list-style: none;
+}
+a{text-decoration: none;}
+.header-wrap{
+	height: 30px;
+	background-color: #f4f4f4;
+}
+
+.header{
+	height: 30px;
+	width: 1200px;
+	margin: 0 auto;
+	line-height: 25px;
+	background-color: #f4f4f4;
+}
+.header span a{
+	color: #333333;
+
+}
+.headerleft{
+	float: left;
+}
+.headeright{
+	float: right;
+	color: #333333;
+
+
+}
+.sss{
+	position: relative;
+	top: 0px;
+}
+.nav-wrap{
+	height: 100px;
+	background-color:white;
+}
+.nav{ width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+
+}
+.logo{
+	float: left;
+	height: 85px;
+	margin: 0 auto;
+}
+.sousuo{float: left;
+	margin: 20px 0 0 196px;
+	border: 2px solid #fd0304;
+
+}
+.sousuo form input:first-child{
+	width: 380px;
+	height:35px;
+	border:none;
+	padding-top: 1px;
+	padding-left: 18px;
+	font-size: 12px;
+	outline: none;
+	
+}
+.sousuo form input:last-child{
+	width: 90px;
+	height: 40px;
+	border: 1px solid #fd0304;
+	background-color: #fd0304;
+	color: #fff;
+	font-size: 20px;
+	margin-left: -8px;
+
+
+}
+.gouwu{
+	float: right;
+	text-align: center;
+	margin-right: 10px;
+	border: 1px solid #e3e3e3;
+	width: 150px;
+	height: 40px;
+	margin-top: 20px;
+	background:  url(web作业/购物车.png) no-repeat 10px center #f5f5f5;
+
+}
+.gouwu a{
+	margin-top: 10px;
+	display: block;
+}
+.tou-wrap{
+	height: 40px;
+	background-color:white;
+
+}
+.tou{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+	background-color: white;
+}
+.tou ul li{float: left;
+	width: 95px;
+	height: 35px;
+	line-height: 33px;
+	text-align: center;
+	margin-left: 10px;
+	
+}
+.tttt{
+	background: #fd0304
+}
+.tttt:hover{
+	color: #d4cece；
+
+}
+
+
+.tou ul li a{
+	color: #000000;
+	width: 95px;
+	height: 35px;
+}
+.xian{
+	width: 100%;
+	height: 0;
+	border: 2px solid  #fd0304;
+	margin: 0 auto;
+
+}
+.daoyu-wrap{
+	height: 40px;
+	background-color: #fbfbfb;
+}
+.daoyu{
+	height: 40px;
+	width: 1200px;
+	margin: 0 auto;
+
+}
+.daoyu a{ font-size: 16px;
+color: #333;
+line-height: 40px;	
+
+}
+.daoyu span {
+	font-size: 16px;
+	color: #333;
+}
+.zhong-wrap{
+	height: 590px;
+	background-color: #fbfbfb;
+}
+.zhong{
+	height: 80px;
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #fbfbfb;
+	
+
+
+}
+.liebiao{
+	float: left;
+	width: 215px;
+	height: 50px;
+	background-color: #ffffff;
+	background: #ffffff  url(web作业/列表.png) no-repeat 20px;
+	position: relative;
+	
+}
+.llll{
+	font-size: 18px;
+	color: #333333;
+	display: inline-block;
+	margin-top: 14px;
+	margin-left: 70px;
+	float: left;
+
+}
+.shi{
+	height: 510px;
+	width: 215px;
+	background-color: #ffffff;
+	float: left;
+	position: absolute;
+	top:265px ;
+	left: 355px;
+
+
+}
+.shi img{width: 200px;
+height: 40px;
+float: left;
+margin-left: 5px;
+margin-top: 10px;
+}
+.tu{
+
+	width: 950px;
+	height: 570px;
+	background-color: #ffffff;
+	float: right;
+	margin-right: 10px;
+}
+.tu li{
+	width: 200px;
+	height: 250px;
+	border: 1px solid #dad5d5;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	text-align: center;
+	position: relative;}
+.foot-wrap{
+	height: 250px;
+	background-color: black;
+}
+.foot{
+	height: 150px;
+	width: 1200px;
+	margin: 0 auto;
+	background-color:black;
+}
+.foot ul li:{
+	
+	margin-right: 100px;
+    margin-top: 17px;
+	float: left;
+}
+.foot ul{
+	float: left;
+	margin-left: 23px;
+	margin-right: 120px;
+	margin-top: 15px;
+}
+.foot ul li a{
+	color:#9e9e9e;
+	font-size: 15px;
+}
+.wei{
+	width: 650px;
+	height: 90px;
+	margin: 12px auto 0;
+	line-height: 35px;
+	text-align: center;
+}
+.wei p{
+	color: #9e9e9e;
+	font-size: 12px;
+}
+
+.wei p a{
+	color: #9e9e9e;
+	font-size: 12px;
+	margin-right: 5px;
+	margin-left: 20px;
+}
